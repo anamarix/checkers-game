@@ -128,23 +128,21 @@ function App() {
       {color && <Board color={color}>
         {boardState.map((el) => (
           <Cell
-          handlePlayerA={handlePlayerA}
-          handlePlayerB={handlePlayerB}
-          handleClassName={handleClassName}
-            // color={color}
             key={el.id}
             id={el.id}
             posX={el.x}
             posY={el.y}
             occupied={el.occupied}
             player={el.player}
+            handlePlayerA={handlePlayerA}
+            handlePlayerB={handlePlayerB}
+            handleClassName={handleClassName}
             >
-              {el.occupied && <Pawn id={el.id} occupied={el.occupied} player={el.player} posX={el.x} posY={el.y}/>}
+              {el.occupied && <Pawn id={el.id} occupied={el.occupied} player={el.player}/>}
             </Cell>
         ))}
       </Board>}
       {color && <ActionPrompt handlePlayerText={handlePlayerText}/>}
-      {}
     </div>
   );
 }
