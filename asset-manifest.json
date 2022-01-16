@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/checkers-game/static/css/main.c6af60ef.css",
+    "main.js": "/checkers-game/static/js/main.654e4ee2.js",
+    "index.html": "/checkers-game/index.html",
+    "main.c6af60ef.css.map": "/checkers-game/static/css/main.c6af60ef.css.map",
+    "main.654e4ee2.js.map": "/checkers-game/static/js/main.654e4ee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6af60ef.css",
+    "static/js/main.654e4ee2.js"
+  ]
+}
